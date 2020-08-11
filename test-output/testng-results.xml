@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="35735" started-at="2020-08-02T12:26:00 CDT" finished-at="2020-08-02T12:26:36 CDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="35735" started-at="2020-08-02T12:26:00 CDT" finished-at="2020-08-02T12:26:36 CDT">
+      <class name="TEST.LoginTest">
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:TEST.LoginTest@24fcf36f]" name="openbrowser" is-config="true" duration-ms="7179" started-at="2020-08-02T12:26:00 CDT" finished-at="2020-08-02T12:26:07 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="ValidUserAbleToLogin(java.lang.String, java.lang.String)[pri:0, instance:TEST.LoginTest@24fcf36f]" name="ValidUserAbleToLogin" duration-ms="3087" started-at="2020-08-02T12:26:07 CDT" data-provider="openSource1" finished-at="2020-08-02T12:26:10 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[opensourcecms]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[opensourcecms]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidUserAbleToLogin -->
+        <test-method status="PASS" signature="addcontact(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TEST.LoginTest@24fcf36f]" name="addcontact" duration-ms="25403" started-at="2020-08-02T12:26:10 CDT" data-provider="openSourceAddUser" depends-on-methods="TEST.LoginTest.ValidUserAbleToLogin" finished-at="2020-08-02T12:26:36 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sanjubaba]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sanjubaba.@com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[soyant]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[isabelle]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[www.shah.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addcontact -->
+      </class> <!-- TEST.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
